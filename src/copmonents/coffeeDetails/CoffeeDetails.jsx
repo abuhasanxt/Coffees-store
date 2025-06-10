@@ -5,6 +5,8 @@ const CoffeeDetails = () => {
   const { name, photo, price, quantity, details, taste, supplier } =
     useLoaderData();
 
+
+    
   return (
     <div>
       <Link className="text-green-300 ml-3" to="/">
